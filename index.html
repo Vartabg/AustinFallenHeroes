@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin Fallen Heroes — Interactive 3D Memorial</title>
+  <meta name="description" content="An interactive 3D memorial honoring fallen service members from the Austin and Central Texas area." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <canvas id="memorial-canvas"></canvas>
+
+  <!-- Opening overlay -->
+  <div id="intro-overlay">
+    <div class="intro-content">
+      <h1>Austin Fallen Heroes</h1>
+      <p>An interactive memorial honoring service members from<br/>the Austin &amp; Central Texas area who gave the ultimate sacrifice.</p>
+      <button id="enter-btn">Enter Memorial</button>
+    </div>
+  </div>
+
+  <!-- Detail panel -->
+  <div id="detail-panel" class="hidden">
+    <button id="detail-close">&times;</button>
+    <div class="detail-flag"></div>
+    <h2 id="detail-name"></h2>
+    <div class="detail-meta">
+      <span id="detail-rank"></span>
+      <span class="separator">·</span>
+      <span id="detail-branch"></span>
+    </div>
+    <div class="detail-unit" id="detail-unit"></div>
+    <div class="detail-stats">
+      <div class="stat">
+        <span class="stat-label">Conflict</span>
+        <span class="stat-value" id="detail-conflict"></span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Date</span>
+        <span class="stat-value" id="detail-date"></span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Age</span>
+        <span class="stat-value" id="detail-age"></span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Hometown</span>
+        <span class="stat-value" id="detail-hometown"></span>
+      </div>
+    </div>
+    <p id="detail-description" class="detail-bio"></p>
+    <div class="detail-honor">
+      <em>"All gave some. They gave all."</em>
+    </div>
+  </div>
+
+  <!-- Conflict legend -->
+  <div id="legend">
+    <span class="legend-item"><span class="dot oif"></span> OIF</span>
+    <span class="legend-item"><span class="dot oef"></span> OEF</span>
+    <span class="legend-item"><span class="dot ofs"></span> OFS</span>
+  </div>
+
+  <!-- Instruction hint -->
+  <div id="hint">Click a name to learn their story</div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
