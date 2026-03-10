@@ -84,5 +84,47 @@ export function createEnvironment(scene) {
   const stars = new THREE.Points(starGeo, starMat);
   scene.add(stars);
 
-  return { flameLight, flameFill, stars };
+  // -- Moon (glowing sphere in the sky)
+  const moonGeo = new THREE.SphereGeometry(2, 32, 32);
+  const moonOrbMat = new THREE.MeshBasicMaterial({
+    color: 0xd4d0c8,
+    transparent: true,
+    opacity: 0.8,
+  });
+  const moonOrb = new THREE.Mesh(moonGeo, moonOrbMat);
+  moonOrb.position.set(30, 50, -60);
+  scene.add(moonOrb);
+
+  // Moon glow (additive sprite)
+  const glowGeo = new THREE.SphereGeometry(4, 16, 16);
+  const glowMat = new THREE.MeshBasicMaterial({
+    color: 0x4466aa,
+    transparent: true,
+    opacity: 0.08,
+  });
+  const glow = new THREE.Mesh(glowGeo, glowMat);
+  glow.position.copy(moonOrb.position);
+  scene.add(glow);
+
+  // -- Ambient dust motes (tiny floating particles near ground)
+  const dustCount = 200;
+  const dustGeo = new THREE.BufferGeometry();
+  const dustPositions = new Float32Array(dustCount * 3);
+  for (let i = 0; i < dustCount; i++) {
+    dustPositions[i * 3] = (Math.random() - 0.5) * 20;
+    dustPositions[i * 3 + 1] = Math.random() * 4;
+    dustPositions[i * 3 + 2] = (Math.random() - 0.5) * 20;
+  }
+  dustGeo.setAttribute('position', new THREE.BufferAttribute(dustPositions, 3));
+  const dustMat = new THREE.PointsMaterial({
+    color: 0xc9a654,
+    size: 0.03,
+    transparent: true,
+    opacity: 0.3,
+    sizeAttenuation: true,
+  });
+  const dust = new THREE.Points(dustGeo, dustMat);
+  scene.add(dust);
+
+  return { flameLight, flameFill, stars, dust };
 }

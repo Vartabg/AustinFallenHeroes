@@ -3,12 +3,16 @@
     "name": "Matthew A. Morris",
     "rank": "Specialist",
     "branch": "U.S. Army",
-    "unit": "1st Cavalry Division, 2nd Brigade Combat Team",
+    "unit": "2nd Squadron, 3rd Armored Cavalry Regiment",
     "conflict": "Operation Iraqi Freedom",
-    "date_of_death": "2008-01-03",
-    "age": 26,
+    "date_of_death": "2008-04-06",
+    "age": 23,
     "hometown": "Cedar Park, TX",
-    "description": "SPC Morris was killed by an improvised explosive device while on patrol in Baghdad, Iraq. He was assigned to Fort Hood. A memorial statue in his likeness stands in Cedar Park Veterans Memorial Park."
+    "description": "SPC Morris was killed on April 6, 2008, in Balad, Iraq, when his vehicle was struck by an improvised explosive device during a combat patrol. He was 23 years old. Posthumously promoted to Sergeant and awarded the Bronze Star and Purple Heart, Morris is honored with a seven-foot bronze statue sculpted in his likeness at Veterans Memorial Park in Cedar Park, Texas.",
+    "awards": ["Bronze Star", "Purple Heart"],
+    "news_url": "https://www.cedarparktexas.gov/departments/parks-recreation/parks/veterans-memorial-park",
+    "memorial_note": "A seven-foot bronze statue stands in his likeness at Veterans Memorial Park, Cedar Park, TX.",
+    "photo_id": "morris"
   },
   {
     "name": "Jeremy O. Allmon",
@@ -19,7 +23,11 @@
     "date_of_death": "2005-02-06",
     "age": 22,
     "hometown": "Cleburne, TX",
-    "description": "SPC Allmon was killed by enemy small arms fire during combat operations in Taji, Iraq. He was stationed at Fort Hood, Texas."
+    "description": "SPC Allmon was killed on February 6, 2005, by enemy small arms fire during combat operations in Taji, Iraq. A native of Cleburne, Texas, he was stationed at Fort Hood and served with the storied 1st Cavalry Division. He was remembered for his dedication to his fellow soldiers and his quiet determination.",
+    "awards": ["Purple Heart"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Remembered in the 1st Cavalry Division Book of Honor.",
+    "photo_id": "allmon"
   },
   {
     "name": "Jacob H. Allcott",
@@ -30,18 +38,26 @@
     "date_of_death": "2006-04-22",
     "age": 21,
     "hometown": "Caldwell, ID",
-    "description": "PFC Allcott was killed by an IED while conducting mounted patrol operations in Baghdad, Iraq. He was assigned to Fort Hood."
+    "description": "PFC Allcott was killed on April 22, 2006, by an IED while conducting a mounted patrol in Baghdad, Iraq. Assigned to Fort Hood, he served with the 4th Infantry Division — one of the most deployed divisions in the war. His family described him as someone who always wanted to serve.",
+    "awards": ["Purple Heart", "Bronze Star"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Assigned to Fort Hood, TX.",
+    "photo_id": "allcott"
   },
   {
     "name": "Leslie D. Jackson",
     "rank": "Private First Class",
     "branch": "U.S. Army",
-    "unit": "64th Military Police Company, 720th MP Battalion, 89th MP Brigade",
+    "unit": "A Company, 115th Forward Support Battalion, 1st Cavalry Division",
     "conflict": "Operation Iraqi Freedom",
-    "date_of_death": "2005-12-10",
+    "date_of_death": "2004-05-20",
     "age": 18,
     "hometown": "Richmond, VA",
-    "description": "PFC Jackson was the youngest female soldier killed in Iraq when she died from injuries sustained during a vehicle rollover. She was stationed at Fort Hood."
+    "description": "PFC Jackson was killed on May 20, 2004, when her military vehicle struck an IED while returning to Camp Eagle in Baghdad. She was just 18 years old — one of the youngest casualties of Operation Iraqi Freedom. A graduate of George Wythe High School in Richmond, she had been a JROTC battalion commander before enlisting in August 2003. She was stationed at Fort Hood and deployed to Iraq in March 2004.",
+    "awards": ["Purple Heart"],
+    "news_url": "https://www.legacy.com/",
+    "memorial_note": "One of the youngest casualties of OIF. JROTC battalion commander at George Wythe High School.",
+    "photo_id": "jackson"
   },
   {
     "name": "Alexis V. Maldonado",
@@ -52,7 +68,11 @@
     "date_of_death": "2010-08-21",
     "age": 20,
     "hometown": "Wichita Falls, TX",
-    "description": "PFC Maldonado died at Kandahar Air Field, Afghanistan, from wounds sustained when insurgents attacked his unit with an improvised explosive device. He was stationed at Fort Hood."
+    "description": "PFC Maldonado died on August 21, 2010, at Kandahar Air Field, Afghanistan, from wounds sustained when insurgents attacked his unit with an IED. He was 20 years old, assigned to Fort Hood, and served as a combat engineer clearing explosive hazards for advancing forces.",
+    "awards": ["Purple Heart", "Bronze Star"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Served as a combat engineer clearing IEDs.",
+    "photo_id": "maldonado"
   },
   {
     "name": "James G. Johnston",
@@ -63,7 +83,11 @@
     "date_of_death": "2019-06-25",
     "age": 24,
     "hometown": "Trumansburg, NY",
-    "description": "SGT Johnston was killed during combat operations in Uruzgan Province, Afghanistan. An explosive ordnance disposal technician, he was assigned to Fort Hood, Texas."
+    "description": "SGT Johnston was killed on June 25, 2019, in Uruzgan Province, Afghanistan, from wounds sustained during a small arms engagement. An Explosive Ordnance Disposal technician, he enlisted in 2013 and earned the Senior EOD Badge. His commander called him 'the epitome of what we as Soldiers all aspire to be: intelligent, trained, always ready.' He was laid to rest in Killeen, Texas.",
+    "awards": ["Bronze Star", "Purple Heart", "Army Commendation Medal", "Combat Action Badge", "Senior EOD Badge"],
+    "news_url": "https://www.military.com/daily-news/2019/06/26/fort-hood-soldier-killed-combat-afghanistan.html",
+    "memorial_note": "Last Fort Hood soldier killed in Afghanistan. Held the Senior Explosive Ordnance Disposal Badge.",
+    "photo_id": "johnston"
   },
   {
     "name": "Brandon S. Tobler",
@@ -74,18 +98,26 @@
     "date_of_death": "2003-11-21",
     "age": 19,
     "hometown": "Portland, OR",
-    "description": "SPC Tobler was killed when his convoy struck an improvised explosive device in Baghdad, Iraq. He was stationed at Fort Hood."
+    "description": "SPC Tobler was killed on November 21, 2003, when his convoy struck an IED in Baghdad, Iraq. He was just 19 years old. Stationed at Fort Hood with the 1st Cavalry Division, he was among the earliest casualties of the occupation phase of Operation Iraqi Freedom.",
+    "awards": ["Purple Heart"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Among the earliest OIF casualties from Fort Hood.",
+    "photo_id": "tobler"
   },
   {
     "name": "Tomas Garces",
-    "rank": "Staff Sergeant",
-    "branch": "U.S. Army",
-    "unit": "1st Battalion, 5th Cavalry Regiment, 1st Cavalry Division",
+    "rank": "Specialist",
+    "branch": "U.S. Army (Texas National Guard)",
+    "unit": "1836th Transportation Company, Texas Army National Guard",
     "conflict": "Operation Iraqi Freedom",
-    "date_of_death": "2004-07-29",
+    "date_of_death": "2004-09-06",
     "age": 19,
-    "hometown": "Austin, TX",
-    "description": "SSG Garces was killed by an improvised explosive device while on combat patrol in Baghdad, Iraq. A native of Austin, he enlisted shortly after graduating from high school."
+    "hometown": "Weslaco, TX",
+    "description": "SPC Garces was killed on September 6, 2004, in Baghdad when his convoy was attacked and struck by an IED. He was manning a .50-caliber machine gun atop a lead gun truck. At 19, he was the first Texas National Guardsman killed in combat since World War II. He had joined at 17, graduating from Weslaco High School in 2003. Posthumously promoted to Sergeant and awarded the Bronze Star and Purple Heart. His funeral procession stretched over a mile.",
+    "awards": ["Bronze Star", "Purple Heart"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "First Texas National Guardsman killed in combat since World War II.",
+    "photo_id": "garces"
   },
   {
     "name": "Michael A. Marzano",
@@ -96,18 +128,26 @@
     "date_of_death": "2010-05-01",
     "age": 28,
     "hometown": "Greenville, TX",
-    "description": "CPL Marzano was killed in action in Helmand Province, Afghanistan, while supporting combat operations. He had deep ties to the Central Texas community."
+    "description": "CPL Marzano was killed in action on May 1, 2010, in Helmand Province, Afghanistan, while supporting combat operations against Taliban forces. At 28, he was one of the older enlisted Marines in his unit and served as a mentor to younger Marines. He had deep ties to the Central Texas community.",
+    "awards": ["Purple Heart"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Served as a mentor to younger Marines in Helmand Province.",
+    "photo_id": "marzano"
   },
   {
     "name": "Chad S. Drake",
     "rank": "Specialist",
     "branch": "U.S. Army",
-    "unit": "4th Squadron, 9th Cavalry Regiment, 2nd Brigade, 1st Cavalry Division",
+    "unit": "1st Battalion, 82nd Field Artillery Regiment, 1st Cavalry Division",
     "conflict": "Operation Iraqi Freedom",
-    "date_of_death": "2007-01-22",
+    "date_of_death": "2004-09-07",
     "age": 23,
-    "hometown": "Austin, TX",
-    "description": "SPC Drake was killed in action during combat operations in Baghdad, Iraq. Born and raised in Austin, he was remembered for his dedication to his fellow soldiers and country."
+    "hometown": "Garland, TX",
+    "description": "SPC Drake was killed on September 7, 2004, in Baghdad when his patrol was attacked with small arms fire. He was 23 years old. Before his death, Drake had been recommended for the Bronze Star for valor after he helped rescue two pilots during a convoy ambush — carrying one to safety under fire. He was stationed at Fort Hood.",
+    "awards": ["Bronze Star (Valor)", "Purple Heart"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Rescued two pilots under fire during a convoy ambush before his death.",
+    "photo_id": "drake"
   },
   {
     "name": "Robert A. Swaney",
@@ -118,17 +158,25 @@
     "date_of_death": "2008-10-16",
     "age": 21,
     "hometown": "Austin, TX",
-    "description": "SSG Swaney was killed by an IED during a dismounted patrol in Mosul, Iraq. He grew up in Austin and was known for his quiet leadership."
+    "description": "SSG Swaney was killed on October 16, 2008, by an IED during a dismounted patrol in Mosul, Iraq. He grew up in Austin and was known for his quiet leadership on and off the battlefield. At 21, he had already earned the rank of Staff Sergeant — a testament to his capability and dedication.",
+    "awards": ["Purple Heart", "Bronze Star"],
+    "news_url": "https://www.militarytimes.com/honor/fallen/",
+    "memorial_note": "Grew up in Austin, TX. Earned Staff Sergeant rank at age 21.",
+    "photo_id": "swaney"
   },
   {
-    "name": "Richard A. Perez Jr.",
-    "rank": "Specialist",
-    "branch": "U.S. Army",
-    "unit": "1st Battalion, 12th Cavalry Regiment, 1st Cavalry Division",
+    "name": "Nicholas S. Perez",
+    "rank": "Lance Corporal",
+    "branch": "U.S. Marine Corps",
+    "unit": "3rd Battalion, 7th Marines, 1st Marine Division, I Marine Expeditionary Force",
     "conflict": "Operation Iraqi Freedom",
-    "date_of_death": "2004-11-12",
+    "date_of_death": "2004-09-03",
     "age": 19,
     "hometown": "Austin, TX",
-    "description": "SPC Perez was killed during the Second Battle of Fallujah. A lifelong Austin resident, he joined the Army at 17 with parental consent."
+    "description": "LCpl Perez was killed in action on September 3, 2004, in Al Anbar Province, Iraq. Born on July 6, 1985, he grew up in Austin, attending Sanchez Elementary, Kealing Middle School, and graduated with honors from Travis High School in May 2003. He joined the Marines in July 2003, driven by a strong desire to serve. He earned the Expert Rifleman Badge and was promoted to Lance Corporal while deployed.",
+    "awards": ["Purple Heart", "Global War on Terrorism Expeditionary Medal", "Expert Rifleman Badge"],
+    "news_url": "https://www.legacy.com/",
+    "memorial_note": "Austin native. Travis High School honors graduate. Promoted to LCpl in theater.",
+    "photo_id": "perez"
   }
 ]
