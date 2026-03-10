@@ -12,6 +12,7 @@ import {
   cinematicIntro,
 } from './interaction.js';
 import { initDetailPanel, showDetail } from './detail-panel.js';
+import { createFlags } from './flags.js';
 
 // --- Load data then init ---
 (async function boot() {
@@ -48,6 +49,7 @@ import { initDetailPanel, showDetail } from './detail-panel.js';
   const env = createEnvironment(scene);
   const { nameObjects } = createMemorial(scene, heroesData);
   const flame = createFlame(scene);
+  const flags = createFlags(scene);
 
   // --- Interaction ---
   initDetailPanel();
@@ -72,8 +74,9 @@ import { initDetailPanel, showDetail } from './detail-panel.js';
 
     const dt = clock.getDelta();
 
-    // Update flame
+    // Update flame & flags
     flame.update(dt);
+    flags.update(performance.now() * 0.001);
 
     // Flickering flame light
     const flicker = 1 + Math.sin(performance.now() * 0.01) * 0.1 +
