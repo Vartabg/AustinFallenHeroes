@@ -4,29 +4,39 @@
 import * as THREE from 'three';
 
 export function createEnvironment(scene) {
-  // -- Fog (volumetric feel at ground level)
-  scene.fog = new THREE.FogExp2(0x080812, 0.018);
+  // -- Fog (lighter to let light carry)
+  scene.fog = new THREE.FogExp2(0x080812, 0.012);
 
-  // -- Ambient light (soft blue-gray fill)
-  const ambient = new THREE.AmbientLight(0x1a1a2e, 0.6);
+  // -- Ambient light (strong enough to read names)
+  const ambient = new THREE.AmbientLight(0x3a3a5e, 2.5);
   scene.add(ambient);
 
   // -- Directional light (moonlight from above-right)
-  const moon = new THREE.DirectionalLight(0x4466aa, 0.4);
-  moon.position.set(10, 20, -5);
+  const moon = new THREE.DirectionalLight(0x6688cc, 1.2);
+  moon.position.set(10, 25, -5);
   moon.castShadow = true;
-  moon.shadow.mapSize.set(1024, 1024);
+  moon.shadow.mapSize.set(2048, 2048);
+  moon.shadow.camera.far = 60;
+  moon.shadow.camera.left = -20;
+  moon.shadow.camera.right = 20;
+  moon.shadow.camera.top = 20;
+  moon.shadow.camera.bottom = -20;
   scene.add(moon);
 
-  // -- Warm point light (flame glow — positioned at flame location)
-  const flameLight = new THREE.PointLight(0xc9a654, 2.5, 15, 1.5);
-  flameLight.position.set(0, 1.5, 0);
+  // -- Warm point light (flame glow — wider reach)
+  const flameLight = new THREE.PointLight(0xc9a654, 4.0, 25, 1.2);
+  flameLight.position.set(0, 2, 0);
   scene.add(flameLight);
 
   // -- Secondary warm fill from the flame
-  const flameFill = new THREE.PointLight(0xff6600, 0.8, 10, 2);
+  const flameFill = new THREE.PointLight(0xff6600, 1.5, 18, 1.5);
   flameFill.position.set(0, 0.5, 0);
   scene.add(flameFill);
+
+  // -- Front fill (illuminates wall faces directly)
+  const frontFill = new THREE.PointLight(0xd4c8b0, 2.5, 35, 1.2);
+  frontFill.position.set(0, 5, 8);
+  scene.add(frontFill);
 
   // -- Ground plane
   const groundGeo = new THREE.CircleGeometry(50, 64);
@@ -55,7 +65,7 @@ export function createEnvironment(scene) {
   scene.add(inner);
 
   // -- Sky gradient (hemisphere light + background)
-  const hemi = new THREE.HemisphereLight(0x0a0a2e, 0x1a1510, 0.3);
+  const hemi = new THREE.HemisphereLight(0x1a1a4e, 0x2a2520, 0.8);
   scene.add(hemi);
 
   // Gradient background

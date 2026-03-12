@@ -31,7 +31,7 @@ import { createFlags } from './flags.js';
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 0.8;
+  renderer.toneMappingExposure = 1.8;
 
   // --- Scene ---
   const scene = new THREE.Scene();
